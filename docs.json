@@ -328,26 +328,7 @@
                       "en/ai/tutorial/agentic-bi-end-to-end-analysis",
                       "en/ai/tutorial/build-agentic-chatbi-from-scratch",
                       "en/ai/tutorial/project-group-single-vs-multi-agent",
-                      "en/ai/tutorial/moving-average",
-                      "en/ai/tutorial/analyze-with-wasm-database",
-                      "en/ai/tutorial/member-intrinsic-properties",
                       "en/ai/tutorial/tutorial"
-                    ]
-                  },
-                  {
-                    "group": "Mdx",
-                    "pages": [
-                      "en/ai/tutorial/mdx/mdx-introduction",
-                      "en/ai/tutorial/mdx/mdx"
-                    ]
-                  },
-                  {
-                    "group": "Sap",
-                    "pages": [
-                      "en/ai/tutorial/sap/sap-bpc",
-                      "en/ai/tutorial/sap/sap-bpc-consolidated-reports",
-                      "en/ai/tutorial/sap/how-to-analyze-sap-bw-data-models",
-                      "en/ai/tutorial/sap/sap-bw-calendar-dimension"
                     ]
                   }
                 ]
@@ -565,6 +546,35 @@
                     "pages": [
                       "en/bi/website-features/single-sign-on/feishu-login",
                       "en/bi/website-features/single-sign-on/keycloak-login"
+                    ]
+                  }
+                ]
+              },
+              {
+                "tab": "Tutorial",
+                "groups": [
+                  {
+                    "group": "Default",
+                    "pages": [
+                      "en/bi/tutorial/moving-average",
+                      "en/bi/tutorial/analyze-with-wasm-database",
+                      "en/bi/tutorial/member-intrinsic-properties"
+                    ]
+                  },
+                  {
+                    "group": "Mdx",
+                    "pages": [
+                      "en/bi/tutorial/mdx/mdx-introduction",
+                      "en/bi/tutorial/mdx/mdx"
+                    ]
+                  },
+                  {
+                    "group": "Sap",
+                    "pages": [
+                      "en/bi/tutorial/sap/sap-bpc",
+                      "en/bi/tutorial/sap/sap-bpc-consolidated-reports",
+                      "en/bi/tutorial/sap/how-to-analyze-sap-bw-data-models",
+                      "en/bi/tutorial/sap/sap-bw-calendar-dimension"
                     ]
                   }
                 ]
@@ -843,26 +853,7 @@
                       "zh-Hans/ai/tutorial/integrate-with-mcp-dify",
                       "zh-Hans/ai/tutorial/build-agentic-chatbi-from-scratch",
                       "zh-Hans/ai/tutorial/project-group-single-vs-multi-agent",
-                      "zh-Hans/ai/tutorial/agentic-bi-end-to-end-analysis",
-                      "zh-Hans/ai/tutorial/moving-average",
-                      "zh-Hans/ai/tutorial/analyze-with-wasm-database",
-                      "zh-Hans/ai/tutorial/member-intrinsic-properties"
-                    ]
-                  },
-                  {
-                    "group": "Mdx",
-                    "pages": [
-                      "zh-Hans/ai/tutorial/mdx/mdx",
-                      "zh-Hans/ai/tutorial/mdx/mdx-introduction"
-                    ]
-                  },
-                  {
-                    "group": "Sap",
-                    "pages": [
-                      "zh-Hans/ai/tutorial/sap/sap-bpc",
-                      "zh-Hans/ai/tutorial/sap/sap-bpc-consolidated-reports",
-                      "zh-Hans/ai/tutorial/sap/how-to-analyze-sap-bw-data-models",
-                      "zh-Hans/ai/tutorial/sap/sap-bw-calendar-dimension"
+                      "zh-Hans/ai/tutorial/agentic-bi-end-to-end-analysis"
                     ]
                   }
                 ]
@@ -1080,6 +1071,35 @@
                     "pages": [
                       "zh-Hans/bi/website-features/single-sign-on/feishu-login",
                       "zh-Hans/bi/website-features/single-sign-on/keycloak-login"
+                    ]
+                  }
+                ]
+              },
+              {
+                "tab": "教程",
+                "groups": [
+                  {
+                    "group": "默认",
+                    "pages": [
+                      "zh-Hans/bi/tutorial/moving-average",
+                      "zh-Hans/bi/tutorial/analyze-with-wasm-database",
+                      "zh-Hans/bi/tutorial/member-intrinsic-properties"
+                    ]
+                  },
+                  {
+                    "group": "Mdx",
+                    "pages": [
+                      "zh-Hans/bi/tutorial/mdx/mdx",
+                      "zh-Hans/bi/tutorial/mdx/mdx-introduction"
+                    ]
+                  },
+                  {
+                    "group": "Sap",
+                    "pages": [
+                      "zh-Hans/bi/tutorial/sap/sap-bpc",
+                      "zh-Hans/bi/tutorial/sap/sap-bpc-consolidated-reports",
+                      "zh-Hans/bi/tutorial/sap/how-to-analyze-sap-bw-data-models",
+                      "zh-Hans/bi/tutorial/sap/sap-bw-calendar-dimension"
                     ]
                   }
                 ]
