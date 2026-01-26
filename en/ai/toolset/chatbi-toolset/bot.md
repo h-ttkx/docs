@@ -31,9 +31,9 @@ For metrics that don't have a direct corresponding measure, ChatBI will automati
 
 ![Lark chatbot calculated indicator](/public/img/chatbi/lark-chatbot-indicator.png)
 
-:::tip
+<Tip>
 The accuracy of calculated metrics also depends on the richness of the knowledge in the knowledge base. Please import the relevant knowledge base before using ChatBI.
-:::
+</Tip>
 
 ## Multi-turn Conversations
 
@@ -43,9 +43,9 @@ Users can click the "End Conversation" button below the bot message or manually 
 
 ![Lark chatbot end conversation](/public/img/chatbi/lark-chatbot-end.png)
 
-:::tip
+<Tip>
 To avoid unnecessary content or reduce token usage, please end the conversation promptly.
-:::
+</Tip>
 
 ## Group Chat Conversations
 
@@ -53,9 +53,9 @@ In addition to one-on-one conversations, ChatBI supports multi-turn conversation
 
 ![Lark chatbot in group](/public/img/chatbi/lark-chatbot-group-kpi.png)
 
-:::tip
+<Tip>
 @ your boss in the group and @ ChatBI with a question, and let ChatBI intelligently analyze the data for your boss!
-:::
+</Tip>
 
 ## Sharing and Forwarding
 

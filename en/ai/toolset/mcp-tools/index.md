@@ -23,9 +23,10 @@ As shown in the image below, fill in the required fields such as the name, enter
 
 ![Create MCP Toolset](/public/img/ai/xpert/create-mcp-toolset.png)
 
-:::warning Security Warning
+<Warning>
+**Security Warning**  
 In open-source code versions, MCP tools run using "commands" will trigger a security prompt: "Commands" are executed directly on the backend server, which may pose security risks. Upgrading to the **Pro** version ensures that "command" tools are securely run in a sandbox container.
-:::
+</Warning>
 
 After loading the MCP toolset’s tool list, users can enable or disable individual tools. You can also set "**Default Disabled Tools**," meaning tools not explicitly enabled will be turned off by default.
 

@@ -3,16 +3,13 @@ title: Client Tools
 sidebar_position: 4
 ---
 
-:::info
+<Info>
 Learn how to define tools that let the agent operate client-side capabilities.
-:::
+</Info>
 
 Client tools route **model-initiated tool calls to the frontend UI for execution** and return results back to the model to continue reasoning. Use them for reading frontend state, handling user interaction, or leveraging browser capabilities.
 
-<figure className="Large">
-  <img src="/img/ai/chatkit/client-tool-middleware.png" alt="Client tool middleware" className="shadow-sm rounded-xl" />
-  <figcaption>Client tool middleware</figcaption>
-</figure>
+![Client tool middleware](/public/img/ai/chatkit/client-tool-middleware.png)
 
 ## Workflow
 

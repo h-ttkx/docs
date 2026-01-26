@@ -3,17 +3,14 @@ title: 客户端副作用
 sidebar_position: 5
 ---
 
-:::info
+<Info>
 了解如何定义工具让智能体影响客户端功能。
-:::
+</Info>
 
 客户端副作用用于**将模型产生的“副作用事件”推送到前端执行**，**不打断模型推理流程**，并使用服务端配置的默认值直接返回给模型。
 适用于：UI 更新、视图聚焦、高亮、动画、状态同步等**只影响前端、不依赖返回值**的场景。
 
-<figure className="Large">
-  <img src="/img/ai/chatkit/client-effect-middleware.png" alt="Client effect middleware" className="shadow-sm rounded-xl" />
-  <figcaption>客户端副作用中间件</figcaption>
-</figure>
+![客户端副作用中间件](/public/img/ai/chatkit/client-effect-middleware.png)
 
 ## 核心特性
 

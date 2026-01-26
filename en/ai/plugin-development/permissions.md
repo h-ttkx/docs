@@ -3,9 +3,9 @@ sidebar_position: 10
 title: Plugin Permission Design Guide
 ---
 
-:::tip
+<Tip>
 Design a configuration in `meta` that allows the plugin to request large model invocation permissions from the core system (e.g., request an OpenAI Client instance). For example, declare the large model permission request in `meta`, design properties in `configSchema` for users to configure the model provider and model name, and when the core system detects the permission request, it will instantiate the large model Client according to the user's config and inject it into the `understandImages` method via `config`.
-:::
+</Tip>
 
 👌 Got it! You want to **declare the required large model permission request in the plugin Strategy's meta**, so the core system can parse it and automatically inject a `client` into `config` based on user configuration (model provider + model name + other parameters). This way, the plugin doesn't need to create its own OpenAI / Anthropic / other VLM client.
 

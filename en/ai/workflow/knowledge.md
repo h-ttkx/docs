@@ -89,9 +89,9 @@ The Knowledge Retrieval node is typically used with the following nodes to form 
 
 ## Conclusion
 
-:::tip
+<Tip>
 The **Knowledge Retrieval** node serves as a bridge between "user questions" and "intelligent answers."
-:::
+</Tip>
 
 It not only provides factual evidence but also offers reliable semantic support for the agent's understanding and expression. In the XpertAI workflow, Knowledge Retrieval enhances your agent's contextual awareness and business expertise.
 

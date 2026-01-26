@@ -3,9 +3,9 @@ sidebar_position: 11
 title: Schema UI Extension Specification
 ---
 
-:::tip
+<Tip>
 Design a universal schema UI extension specification
-:::
+</Tip>
 
 👌 Sure, let me help you design a **universal Schema UI extension specification** that can be applied to all configuration schemas in your plugin system, enabling unified rules for frontend rendering.
 

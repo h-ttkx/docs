@@ -3,20 +3,17 @@ title: Widgets
 sidebar_position: 3
 ---
 
-:::tip PRO
-This feature is available in the **Pro** plan.
-:::
+<Tip>
+**PRO** This feature is available in the **Pro** plan.
+</Tip>
 
-:::info
+<Info>
 Learn how to design widgets for your chat experience.
-:::
+</Info>
 
 Widgets are the containers and components provided by ChatKit. Use prebuilts, tweak templates, or design your own to fully customize ChatKit in your product.
 
-<figure className="Large">
-  <img src="/img/ai/chatkit/a2ui_gallery_examples.png" alt="ChatKit Widgets" className="shadow-lg rounded-xl" />
-  <figcaption>ChatKit widgets</figcaption>
-</figure>
+![ChatKit widgets](/public/img/ai/chatkit/a2ui_gallery_examples.png)
 
 ## Quickly design widgets
 
@@ -26,10 +23,7 @@ Use the widget builder in [A2UI Widget Builder](https://go.copilotkit.ai/A2UI-wi
 
 With middleware, the model can return ChatKit widgets via tool calls or structured outputs for the frontend to render. Use middleware to dynamically change widget content, style, or behavior based on user context or preferences.
 
-<figure className="Large">
-  <img src="/img/ai/chatkit/chatkit-widgets-middleware.png" alt="Widgets Middleware" className="shadow-lg rounded-xl" />
-  <figcaption>ChatKit widgets middleware</figcaption>
-</figure>
+![ChatKit widgets middleware](/public/img/ai/chatkit/chatkit-widgets-middleware.png)
 
 ChatKit widgets can surface context, shortcuts, and interactive cards directly in the conversation. When a user clicks a widget button, your app receives a custom action payload so your backend can respond.
 

@@ -3,16 +3,13 @@ title: 客户端工具
 sidebar_position: 4
 ---
 
-:::info
+<Info>
 了解如何定义工具让智能体操作客户端功能。
-:::
+</Info>
 
 客户端工具用于将**模型发起的工具调用路由到前端 UI 执行**，并将执行结果返回给模型继续推理，适用于读取前端状态、用户交互、浏览器能力等场景。
 
-<figure className="Large">
-  <img src="/img/ai/chatkit/client-tool-middleware.png" alt="Client tool middleware" className="shadow-sm rounded-xl" />
-  <figcaption>客户端工具中间件</figcaption>
-</figure>
+![客户端工具中间件](/public/img/ai/chatkit/client-tool-middleware.png)
 
 ## 工作流程
 

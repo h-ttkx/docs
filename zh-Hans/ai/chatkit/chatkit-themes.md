@@ -3,9 +3,9 @@ title: 主题和自定义
 sidebar_position: 2
 ---
 
-:::info
+<Info>
 配置颜色、字体、密度和组件变体。
-:::
+</Info>
 
 在完成 [ChatKit 快速入门](/docs/ai/chatkit/) 后，了解如何更改主题并自定义聊天嵌入。通过浅色和深色主题、设置强调色、控制密度与圆角，让 ChatKit 与应用的视觉风格保持一致。
 

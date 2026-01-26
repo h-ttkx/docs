@@ -3,9 +3,9 @@ title: Indicator Management
 sidebar_position: 3
 ---
 
-:::tip PRO
-This feature is available in the **Professional Edition**.
-:::
+<Tip>
+**PRO** This feature is available in the **Professional Edition**.
+</Tip>
 
 ## 1. Overview
 

@@ -4,12 +4,11 @@ sidebar_position: 6
 ---
 
 
-:::warning 开发中
-:::
+<Warning>开发中</Warning>
 
-:::info
+<Info>
 在聊天中根据用户交互触发后端动作。
-:::
+</Info>
 
 动作让 ChatKit SDK 前端在用户未提交消息时触发流式响应，也可用于触发 ChatKit SDK 之外的副作用。
 

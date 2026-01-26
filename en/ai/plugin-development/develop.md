@@ -5,9 +5,10 @@ title: Plugin Development Steps
 
 This document provides a detailed practical guide from a starter template to publishing a plugin. The sample project is based on an nx monorepo template (see directory structure below). Contents cover initialization, implementation, config schema, testing, building, publishing, and common troubleshooting.
 
-:::tip Plugin development template
+<Tip>
+**Plugin development template**  
 git clone https://github.com/xpert-ai/xpert-plugins-starter
-:::
+</Tip>
 
 ## 1. Prerequisites
 
