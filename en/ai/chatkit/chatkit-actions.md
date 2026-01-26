@@ -4,12 +4,11 @@ sidebar_position: 6
 ---
 
 
-:::warning In development
-:::
+<Warning>In development</Warning>
 
-:::info
+<Info>
 Trigger backend actions based on user interactions in chat.
-:::
+</Info>
 
 Actions let the ChatKit SDK frontend trigger streaming responses before a user submits a message and can also trigger side effects outside ChatKit.
 

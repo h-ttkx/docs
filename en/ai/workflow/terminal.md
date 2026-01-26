@@ -11,8 +11,6 @@ When defining the orchestration structure of an Xpert agent, you can use an `END
 
 ![End tool](/public/img/ai/terminal-tool.png)
 
-:::tip
-
+<Tip>
 It is important to ensure that the logic of the graph is correctly designed to avoid unexpected loops or continued execution after reaching the `END` node.
-
-:::
+</Tip>

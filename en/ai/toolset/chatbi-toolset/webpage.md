@@ -9,6 +9,6 @@ Customers can configure the ChatBI webpage as a web application feature of their
 
 By using the ChatBI Quick Access application, you can directly open the ChatBI webpage in the chat window sidebar and perform data analysis. The ChatBI webpage offers more comprehensive features and analysis capabilities compared to the Feishu bot.
 
-:::tip
+<Tip>
 Using the ChatBI web version allows users to achieve professional data analysis capabilities.
-:::
+</Tip>

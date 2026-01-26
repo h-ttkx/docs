@@ -3,20 +3,17 @@ title: 小部件
 sidebar_position: 3
 ---
 
-:::tip PRO
-此功能在**专业版**中支持。
-:::
+<Tip>
+**PRO** 此功能在**专业版**中支持。
+</Tip>
 
-:::info
+<Info>
 了解如何在聊天体验中设计小部件。
-:::
+</Info>
 
 小部件是 ChatKit 提供的容器和组件。你可以使用预构建的小部件、修改模板或自行设计，以便在产品中完全自定义 ChatKit。
 
-<figure className="Large">
-  <img src="/img/ai/chatkit/a2ui_gallery_examples.png" alt="ChatKit Widgets" className="shadow-lg rounded-xl" />
-  <figcaption>ChatKit 小部件示例</figcaption>
-</figure>
+![ChatKit 小部件示例](/public/img/ai/chatkit/a2ui_gallery_examples.png)
 
 ## 快速设计小部件
 
@@ -26,10 +23,7 @@ sidebar_position: 3
 
 通过中间件配置，你可以让大模型通过工具调用或者结构化输出的方式返回 ChatKit 小部件给前端展示数据。使用中间件来动态更改小部件内容、样式或行为，以适应用户上下文或偏好。
 
-<figure className="Large">
-  <img src="/img/ai/chatkit/chatkit-widgets-middleware.png" alt="Widgets Middleware" className="shadow-lg rounded-xl" />
-  <figcaption>ChatKit 小部件中间件配置</figcaption>
-</figure>
+![ChatKit 小部件中间件配置](/public/img/ai/chatkit/chatkit-widgets-middleware.png)
 
 ChatKit 小部件可以在对话中直接呈现上下文、快捷方式和交互式卡片。当用户点击小部件按钮时，你的应用会收到自定义操作负载，以便你的后端做出响应。
 

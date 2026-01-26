@@ -3,9 +3,9 @@ title: Semantic Modeling
 sidebar_position: 2
 ---
 
-:::tip PRO
-This feature is available in the **Professional Edition**.
-:::
+<Tip>
+**PRO** This feature is available in the **Professional Edition**.
+</Tip>
 
 ## Background
 

@@ -19,10 +19,7 @@ ChatKit 是构建智能代理型聊天体验的最佳方式。无论你是在打
 
 从总体上来说，ChatKit 的设置分为三步：先创建一个托管在 XpertAI 服务器上的智能体工作流，然后配置 ChatKit 并添加功能，以构建你的聊天体验。
 
-<figure className="Middle">
-  <img src="/img/ai/chatkit/Developer-ChatKit-Arch.png" alt="ChatKit Architecture" />
-  <figcaption>ChatKit 架构图</figcaption>
-</figure>
+![ChatKit 架构图](/public/img/ai/chatkit/Developer-ChatKit-Arch.png)
 
 1. 创建智能体工作流程<br/>
 使用 [数字专家工作室](https://app.mtda.cloud/xpert/w/) 创建智能体工作流程。Agent 工作室是一个用于设计多步骤多智能体工作流程的可视化画布。你将获得一个工作流程的数字专家 ID。

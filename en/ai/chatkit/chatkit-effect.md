@@ -3,16 +3,13 @@ title: Client Effects
 sidebar_position: 5
 ---
 
-:::info
+<Info>
 Learn how to define tools that let the agent trigger client-side effects.
-:::
+</Info>
 
 Client effects **push model-generated “side-effect events” to the frontend for execution** **without interrupting model reasoning**, and they return a server-configured default value to the model. Use them for UI updates, focus, highlighting, animations, and state sync—situations that only affect the frontend and do not depend on a returned value.
 
-<figure className="Large">
-  <img src="/img/ai/chatkit/client-effect-middleware.png" alt="Client effect middleware" className="shadow-sm rounded-xl" />
-  <figcaption>Client effect middleware</figcaption>
-</figure>
+![Client effect middleware](/public/img/ai/chatkit/client-effect-middleware.png)
 
 ## Core capabilities
 

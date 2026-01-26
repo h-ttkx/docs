@@ -3,9 +3,9 @@ title: 💬 ChatKit SDK
 sidebar_position: 40
 ---
 
-:::info
+<Info>
 Build and customize an embeddable chat experience with ChatKit.
-:::
+</Info>
 
 ChatKit is the fastest way to build agentic chat experiences. Whether you are creating an internal knowledge assistant, HR onboarding helper, research companion, shopping or scheduling assistant, troubleshooting bot, financial planner, or customer support agent, ChatKit ships an embeddable, customizable chat UI that handles the UX details for you.
 
@@ -21,10 +21,7 @@ Embed ChatKit in your frontend, customize the look and feel, and let users conne
 
 At a high level, setup takes three steps: create an agent workflow hosted on XpertAI servers, configure ChatKit, and add capabilities to craft your chat experience.
 
-<figure className="Middle">
-  <img src="/img/ai/chatkit/Developer-ChatKit-Arch.png" alt="ChatKit Architecture" />
-  <figcaption>ChatKit Architecture</figcaption>
-</figure>
+![ChatKit Architecture](/public/img/ai/chatkit/Developer-ChatKit-Arch.png)
 
 1. Create an agent workflow<br/>
 Use the [Agent Studio](https://app.mtda.cloud/xpert/w/) to design a multi-step, multi-agent workflow. You will receive an agent (digital expert) ID. The embedded chat in your frontend points to this workflow as the backend.

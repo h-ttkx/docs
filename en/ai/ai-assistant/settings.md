@@ -42,9 +42,10 @@ Xpert AI supports a wide range of AI providers to enhance flexibility and task-h
 | Mistral AI            | [https://mistral.ai](https://mistral.ai)          |
 | Cohere AI             | [https://cohere.ai](https://cohere.ai)           |
 
-:::info No specific order
+<Info>
+**No specific order**  
 [Add more providers](https://github.com/xpert-ai/xpert/tree/main/packages/server-ai/src/ai-model/model_providers)
-:::
+</Info>
 
 The multi-provider support in Xpert AI allows it to adapt to various business scenarios and dynamically select the best model to handle specific tasks.
 

@@ -3,9 +3,9 @@ title: Themes and Customization
 sidebar_position: 2
 ---
 
-:::info
+<Info>
 Configure colors, fonts, density, and component variants.
-:::
+</Info>
 
 After finishing the [ChatKit quickstart](/docs/ai/chatkit/), you can change themes and customize the embed. Use light or dark themes, set accent colors, control density and radius, and align ChatKit with your product’s visual style.
 

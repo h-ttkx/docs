@@ -9,9 +9,9 @@ sidebar_position: 2
 
 On the XpertAI platform, you can directly configure the built-in Crawl4AI MCP service as an **SSE-type MCP tool instance** for use by agents and workflows.
 
-:::info
+<Info>
 You can also find Crawl4AI in the MCP tool template marketplace and create it with one click.
-:::
+</Info>
 
 Configuration steps are as follows:
 
