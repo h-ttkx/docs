@@ -1,8 +1,8 @@
 ---
-title: Coding Agent
+title: Coding Expert
 sidebar_position: 8
 tags:
-  - Coding Agent
+  - Coding Expert
   - GitHub
   - GitLab
   - Gitee
@@ -13,9 +13,9 @@ tags:
 This feature is available in the **Professional Edition**.
 :::
 
-The Coding Agent is a powerful AI programming assistant that can connect to mainstream code management platforms (GitHub, GitLab, Gitee, Yunxiao) to automate code review, issue handling, code modification, and PR submission.
+The Coding Expert is a powerful AI programming assistant that can connect to mainstream code management platforms (GitHub, GitLab, Gitee, Yunxiao) to automate code review, issue handling, code modification, and PR submission.
 
-With the Coding Agent, you can:
+With the Coding Expert, you can:
 
 - 📋 **Automatically Review Issues**: Intelligently analyze and categorize issues, providing solution suggestions
 - 🔧 **Automatically Modify Code**: Automatically modify code files based on issues or requirements
@@ -34,7 +34,7 @@ With the Coding Agent, you can:
 
 ## 🔧 Backend Configuration
 
-Before using the Coding Agent, you need to configure the relevant environment variables in the backend.
+Before using the Coding Expert, you need to configure the relevant environment variables in the backend.
 
 ### Callback URL Rules
 
@@ -103,7 +103,7 @@ GitHub uses **App Installation** mode, where the platform pre-configures the Git
 
    | Field | Description | Example |
    |-------|-------------|---------|
-   | GitHub App name | Application name | XpertAI Coding Agent |
+   | GitHub App name | Application name | XpertAI Coding Expert |
    | Homepage URL | Homepage URL | https://app.xpertai.cn |
    | Description | Application description | AI coding agent for automated code tasks |
    | Identification | URL slug | xpertai-coding-agent |
@@ -168,7 +168,7 @@ GitLab supports two integration methods: **OAuth Mode** (recommended) and **PAT 
 
    | Field | Description | Example |
    |-------|-------------|---------|
-   | Name | Application name | XpertAI Coding Agent |
+   | Name | Application name | XpertAI Coding Expert |
    | Redirect URI | Callback URL | `http://localhost:3001/v1/git/connections/callback/gitlab` |
 
 3. Check the following permissions (Scopes):
@@ -229,7 +229,7 @@ Gitee supports two integration methods: **OAuth Mode** and **PAT Mode**.
 
    | Field | Description | Example |
    |-------|-------------|---------|
-   | Application Name | Application name | XpertAI Coding Agent |
+   | Application Name | Application name | XpertAI Coding Expert |
    | Application Introduction | Application description | AI coding agent for automated code tasks |
    | Application Homepage | Homepage URL | https://app.xpertai.cn |
    | Application Callback URL | Callback URL | `http://localhost:3001/v1/git/connections/callback/gitee` |
@@ -307,14 +307,14 @@ On the system connection page:
    - **Token**: Personal access token
 
 :::tip Getting Organization ID
-You can view the organization ID in the Yunxiao organization settings page, usually a number or string.
+You can view the organization ID in the Yunxiao organization settings page under "Joined Organizations". It is a string like "6932875abb64aae55975251f".
 :::
 
 ---
 
-## 🚀 Using the Coding Agent
+## 🚀 Using the Coding Expert
 
-After configuration, you can use the Coding Agent tools in agents or workflows.
+After configuration, you can use the Coding Expert tools in agents or workflows.
 
 ### Available Tools
 
@@ -333,66 +333,6 @@ After configuration, you can use the Coding Agent tools in agents or workflows.
 | `update_file` | Modify or create a file |
 | `create_commit` | Commit code changes |
 
-### Usage Examples
-
-#### Example 1: Automatically Handle Issues
-
-```text
-User: Please help me handle Issue #123 in repository xpert/demo
-
-Agent execution flow:
-1. Call get_issue to get detailed information of Issue #123
-2. Analyze the issue content and understand the requirements
-3. Call get_file_content to get relevant code files
-4. Modify code based on requirements (update_file)
-5. Create branch and commit code (create_commit)
-6. Create Pull Request (create_pull_request)
-7. Update Issue status (update_issue)
-
-Agent: Issue #123 has been processed, created PR #456, please check:
-https://github.com/xpert/demo/pull/456
-```
-
-#### Example 2: Code Review
-
-```text
-User: Please help me review PR #789 in repository xpert/demo
-
-Agent execution flow:
-1. Call get_pull_request to get detailed information of PR #789
-2. Get changed file content (get_file_content)
-3. Analyze code changes and check for potential issues
-4. Provide review comments and improvement suggestions
-
-Agent: PR #789 review completed, found the following issues:
-1. Line 45 has potential null pointer risk, suggest adding null check
-2. Function naming doesn't follow conventions, suggest using camelCase
-3. Missing unit tests, suggest adding test cases
-```
-
----
-
-## 🎯 Best Practices
-
-### 1. Principle of Least Privilege
-
-Only grant the Coding Agent necessary permissions, avoid over-authorization:
-
-- For read-only tasks, only grant read permissions
-- For tasks requiring code modification, grant write permissions
-- Avoid granting admin or other high-level permissions
-
-### 2. Branch Protection Strategy
-
-It's recommended to configure branch protection rules in code repositories:
-
-- Require PRs to be reviewed before merging
-- Configure CI/CD checks to ensure code quality
-- Restrict direct pushes to the main branch
-
-### 3. Review Mechanism
-
-For PRs created by the Coding Agent, it's recommended to:
 
 - Manually review all code changes
 - Check if the agent's modifications comply with project standards
@@ -400,7 +340,7 @@ For PRs created by the Coding Agent, it's recommended to:
 
 ### 4. Error Handling
 
-The Coding Agent may encounter errors during execution, it's recommended to:
+The Coding Expert may encounter errors during execution, it's recommended to:
 
 - Configure error notification mechanisms to detect issues in time
 - Log operations for troubleshooting
@@ -419,14 +359,14 @@ The Coding Agent may encounter errors during execution, it's recommended to:
 
 ### 2. Access Control
 
-- Limit the scope of repositories the Coding Agent can access
+- Limit the scope of repositories the Coding Expert can access
 - Configure different application instances for different projects
 - Regularly review the list of authorized applications
 
 ### 3. Audit Logs
 
 - Enable platform audit logging
-- Regularly check the Coding Agent's operation records
+- Regularly check the Coding Expert's operation records
 - Handle abnormal operations promptly
 
 ---
@@ -448,21 +388,21 @@ The Coding Agent may encounter errors during execution, it's recommended to:
 - Confirm that the application permission scope is sufficient
 - Recreate the application and ensure permission configuration is correct
 
-### Q3: Coding Agent cannot access private repositories?
+### Q3: Coding Expert cannot access private repositories?
 
 **A**: Please confirm:
 - User has correctly authorized or provided a valid PAT
 - PAT has permission to access the repository
 - Whether the repository's access settings allow third-party application access
 
-### Q4: How to limit the Coding Agent's operation scope?
+### Q4: How to limit the Coding Expert's operation scope?
 
 **A**: You can:
 - Select specific repositories when installing GitHub App
 - Clearly define the operation scope in the agent's prompt
 - Use branch protection rules to restrict operable branches
 
-### Q5: What to do if the code modified by the Coding Agent is incorrect?
+### Q5: What to do if the code modified by the Coding Expert is incorrect?
 
 **A**: It's recommended to:
 - Enable branch protection and require manual review
@@ -473,7 +413,7 @@ The Coding Agent may encounter errors during execution, it's recommended to:
 
 ## 🎓 Summary
 
-The Coding Agent is a powerful AI programming assistant that can automate various code tasks by connecting to mainstream code management platforms.
+The Coding Expert is a powerful AI programming assistant that can automate various code tasks by connecting to mainstream code management platforms.
 
 **Configuration Key Points:**
 
@@ -494,7 +434,7 @@ The Coding Agent is a powerful AI programming assistant that can automate variou
 | Gitee | PAT | ❌ No | Enter token |
 | Yunxiao | PAT | ❌ No | Enter token |
 
-After configuration, you can let the Coding Agent help you automate code tasks and improve development efficiency!
+After configuration, you can let the Coding Expert help you automate code tasks and improve development efficiency!
 
 ---
 
